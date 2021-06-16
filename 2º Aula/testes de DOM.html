@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>zzzzzzzzzzzzzzzzzzzzzz</h1>
+
+    <p id="teste"></p>
+
+    <div id="container">
+        <div class="display">display container</div>
+        <div class="controls"></div>
+    </div>
+</body>
+
+</html>
+
+
+<script>
+    //const myElement = document.getElementById('container');
+    //const myElement = document.querySelector('#container');
+    //const myElement = document.querySelector('div.display');
+    //const myElement = document.querySelector('.display');
+    //const myElement = document.querySelector('#container > .display'); //vai a dentro do ID container e diz o display especifico
+    //const teste = document.getElementById("teste").innerHTML = "Hello Homie!";
+    //myElement.style.cssText = 'color:red;background:black';
+    //console.log(myElement);
+
+    const div1 = document.createElement('div');
+    div1.textContent = "Contuedo da div";
+    document.body.appendChild(div1);
+    console.log(div1);
+</script>

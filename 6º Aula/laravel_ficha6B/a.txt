@@ -1,0 +1,2 @@
+php -S localhost:8080 -t public/  //criar local host
+~$ mysql -u root -p // ENTRAR NA DB
